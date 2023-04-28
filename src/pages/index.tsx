@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Navbar from "../../components/navbar";
 
 export default function Home() {
   return (
@@ -7,7 +8,10 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
-      <main>index page</main>
+      <main>
+        <Navbar />
+        index page
+      </main>
     </>
   );
 }
